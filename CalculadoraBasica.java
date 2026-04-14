@@ -5,6 +5,12 @@ public class CalculadoraBasica {
     public static int multiplicacion(int a, int b) {
         return a * b;
     }
+   public static int suma(int a, int b) {
+        return a + b;
+    }
+   public static int resta(int a, int b) {
+        return a - b;
+    }
 
     public static double division(int a, int b) {
         if (b == 0) {
@@ -25,9 +31,20 @@ public class CalculadoraBasica {
 
         System.out.println("Multiplicación: " + multiplicacion(num1, num2));
         System.out.println("División: " + division(num1, num2));
+      System.out.println("Suma: " + suma(num1, num2));
+        System.out.println("Resta: " + resta(num1, num2));
 
         sc.close();
     }
 }
 
 
+
+
+
+
+   
+
+   
+
+   
